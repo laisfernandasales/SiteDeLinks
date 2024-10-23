@@ -1,0 +1,26 @@
+body {
+    background-image: linear-gradient(135deg,#0038ff,#e48f41);
+    height : 100vh /* 100% of the viewport height , ou seja ocupa 100% da tela*/
+ }
+
+ #fotoLais {
+    background-image: url("assets/photos/myprofile.png");
+    height: 255px;/* 255px de altura*/
+    width: 255px;/* 255px de largura*/
+    background-size: cover ;/* cobre todo o espaço do elemento*/
+    background-position: center;/* centraliza a imagem*/
+    border-radius: 50%;/* deixa a imagem redonda*/
+ }
+
+ h1{
+    color : #fff;
+    font-family: "Open Sans", sans-serif;   
+    font-size: 1.5rem;/* 1.5rem = 24px*/
+    font-weight: 700;
+ }
+
+ .buttonSocial{
+    border-radius: 50px;/* deixa o botão redondo*/
+
+
+ }
