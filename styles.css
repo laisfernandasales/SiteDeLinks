@@ -17,10 +17,47 @@ body {
     font-family: "Open Sans", sans-serif;   
     font-size: 1.5rem;/* 1.5rem = 24px*/
     font-weight: 700;
+    margin: 33px 0 27px  0;/* 33px de margem superior, 27px de margem inferior*/
+    text-align: center;/* centraliza o texto*/
  }
 
  .buttonSocial{
     border-radius: 50px;/* deixa o botão redondo*/
+    width: 255px; /* 255px de largura*/
+    height: 40px;
+    display: block;/* ocupa toda a largura do elemento pai , ou seja cada elemento ocupa uma linha inteira*/
+    background-color: #00000020;/* 20% de opacidade do preto*/
+    color: #ffffff;/* cor do texto*/
+    font-weight: 500;
+    margin-bottom: 27px;
+    position: relative;/* posição relativa*/
+    cursor: pointer;
+    img {
+      position: absolute;/* posição absoluta*/
+      height: 24px;/* 24px de altura*/
+      width: 24px;/* 24px de largura*/
+      left: 42px;/* 40px da esquerda*/
+      top: 8px;/* 8px do topo*/
+
+    }
+    p {
+      position: absolute;/* posição absoluta*/
+      left: 77px;/* 80px da esquerda*/
+      top: 9px;/* 8px do topo*/
+      font-size: 1.125rem;/* 1.125rem = 18px*/
+      line-height : 1.125rem; /* 1.125rem = 18px*/
+
+    }
+ }
 
 
+ .instaButton {
+   background: #00000095;/* 70% de opacidade do preto*/
+ }
+
+ #content{
+   position : absolute;/* posição absoluta*/
+   top: 50%;/* 50% do topo*/
+   left:    50%;/* 50% da esquerda*/
+   transform: translate(-50%,-50%);/* centraliza o elemento*/
  }
